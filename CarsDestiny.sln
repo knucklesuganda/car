@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DulatCarHonor", "DulatCareHonor\DulatCarHonor.csproj", "{A18BF3DF-2F78-41A4-9A28-06F776E6F4DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsDestiny", "Car\CarsDestiny.csproj", "{7D898258-AB74-468C-AC2F-F2EB32558306}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A18BF3DF-2F78-41A4-9A28-06F776E6F4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18BF3DF-2F78-41A4-9A28-06F776E6F4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18BF3DF-2F78-41A4-9A28-06F776E6F4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18BF3DF-2F78-41A4-9A28-06F776E6F4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D898258-AB74-468C-AC2F-F2EB32558306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D898258-AB74-468C-AC2F-F2EB32558306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D898258-AB74-468C-AC2F-F2EB32558306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D898258-AB74-468C-AC2F-F2EB32558306}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE61D385-71E6-40D3-85BE-57C5BAC76935}
+	EndGlobalSection
+EndGlobal
