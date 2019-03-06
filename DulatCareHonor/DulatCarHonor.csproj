@@ -53,5 +53,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Car\CarsDestiny.csproj">
+      <Project>{7D898258-AB74-468C-AC2F-F2EB32558306}</Project>
+      <Name>CarsDestiny</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

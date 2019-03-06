@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DulatCareHonor;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,8 @@ namespace DulatCarHonor
         static void Main(string[] args)
         {
 
-
+            CarApp carApp = new CarApp();
+            carApp.Main();
 
         }
 

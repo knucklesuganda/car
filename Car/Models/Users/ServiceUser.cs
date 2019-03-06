@@ -32,7 +32,6 @@ namespace CarsDestiny.Models.Users
         }
         public User LogOn(string login, string password, out string message)
         {
-            User user = null;
 
             try
             {
@@ -53,7 +52,7 @@ namespace CarsDestiny.Models.Users
                     else
                     {
                         message = "Неправильно ввели логин или пароль";
-                        return user;
+                        return null;
                     }
 
                 }
@@ -62,7 +61,7 @@ namespace CarsDestiny.Models.Users
             catch (Exception ex)
             {
                 message = ex.Message;
-                return user;
+                return null;
             }
 
         }

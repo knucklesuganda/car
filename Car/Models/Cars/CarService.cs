@@ -34,6 +34,7 @@ namespace CarsDestiny.Models.Cars
             }
 
         }
+
         public string RemoveCar(int Id)
         {
 
@@ -89,6 +90,7 @@ namespace CarsDestiny.Models.Cars
             }
 
         }
+
         public Car FindCarByModel(string Model, out string message)
         {
             Car car = null;
@@ -145,6 +147,30 @@ namespace CarsDestiny.Models.Cars
             catch (Exception ex){return ex.Message;}
 
         }
+
+        /*public List<Car> GetCarsList(out string message)
+        {
+
+            try
+            {
+
+                using (LiteDatabase db = new LiteDatabase(dbName))
+                {
+                    message = "Hello!";
+                    //return db.GetCollection<Car>("Cars").FindAll();
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                message = ex.Message;
+                return null;
+
+            }
+
+        }*/
+
     }
 
 }
